@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <script type="module" src="src/main.js" defer></script>
+    <title>Catch the Bugs</title>
+  </head>
+  <body>
+    <section class="game">
+      <header class="game__header">
+        <button class="game__button">
+          <i class="fas fa-play"></i>
+        </button>
+        <div class="game__timer">
+          <span class="label">time</span><span class="timer"></span>
+        </div>
+        <div class="game__score">
+          <span class="label">score</span><span class="score"></span>
+        </div>
+        <div class="game__select"></div>
+      </header>
+
+      <section class="game__field"></section>
+    </section>
+    <section class="pop-up pop-up__hide">
+      <button class="pop-up__refresh">
+        <i class="fas fa-redo"></i>
+      </button>
+      <span class="pop-up__message"></span>
+    </section>
+  </body>
+</html>
